@@ -40,7 +40,7 @@ export default async (url = '', data = {}, type = 'GET') => {
                 'Access-Control-Allow-Origin': '*',
                 'Authorization': `${token}`
             },
-            cache: 'force-cache',
+            cache: 'reload',
             mode: 'cors'
         };
 
